@@ -5,7 +5,7 @@
 void setup() {
   pinMode(led, OUTPUT);
   Serial.begin(115200);
-  init_WIFI(WIFI_START_MODE_AP);
+  init_WIFI(WIFI_START_MODE_CLIENT);
   init_server();
 }
 

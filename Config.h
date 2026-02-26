@@ -6,3 +6,6 @@ String PASSWORD_AP = "12345678";
 
 int led = LED_BUILTIN;
 
+String SSID_CLI = "enet"; // set your network
+String SSID_PASSWORD = "hxsb3395@";
+
