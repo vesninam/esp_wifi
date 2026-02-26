@@ -8,7 +8,7 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  delay(500);
-  Serial.print("Our id is:");
-  Serial.println(id());
+  //delay(500);
+  //Serial.print("Our id is:");
+  //Serial.println(id());
 }
