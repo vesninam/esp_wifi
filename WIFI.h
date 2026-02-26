@@ -21,6 +21,7 @@ void start_AP_mode() {
 }
 
 void start_client_mode() {
+  
 }
 
 void init_WIFI(bool mode) {
