@@ -4,7 +4,10 @@ import random
 
 broker="broker.emqx.io"
 
-client= client.Client(client.CallbackAPIVersion.VERSION1, 'isu10012300')
+client= client.Client(
+    client.CallbackAPIVersion.VERSION1,
+    'isu10012300'
+)
 
 print("Connecting to broker",broker)
 print(client.connect(broker))
